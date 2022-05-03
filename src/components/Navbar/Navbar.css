@@ -1,0 +1,36 @@
+.navbar-container{
+    transition: all linear 2s !important;
+    background-color: white;
+    box-shadow: var(--light-shadow);
+    transition: 2s linear;
+    padding: 20px;
+    margin-left: 20rem;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-icon{
+    height: 40px;
+    width: 40px;
+    color: rgba(15, 71, 240, 0.696);
+    
+}
+.user-btn{
+    
+    height: 2.5rem;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.user-icon{
+    margin-right: 12px;
+}
+.user-down-icon{
+    margin-left: 12px;
+}
+.navbar-container h2{
+    font-family: Volkhov;
+    font-weight: 600;
+}

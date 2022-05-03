@@ -1,0 +1,42 @@
+.login-container{
+    margin: 2rem auto;
+    width: 40%;
+    background-color: white;
+    padding: 25px 50px;
+    box-shadow: var(--shadow-4);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-container h4{
+    font-weight: 500;
+    padding: 10px 0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.form label{
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: var(--letterSpacing);
+    margin-bottom: 0.5rem;
+}
+.form input{
+    outline: none;
+    padding: 10px;
+    background: var(--backgroundColor);
+    border: 1px solid var(--grey-200);
+    border-radius: 5px;
+}
+
+.submit-btn{
+    width: 100%;
+    margin: 1rem 0;
+}
+.login-container span{
+    color: var(--primary-500);
+    cursor: pointer;
+}
+

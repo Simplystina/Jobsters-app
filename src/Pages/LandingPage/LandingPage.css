@@ -1,0 +1,27 @@
+.landingpage-container{
+    width: 85vw;
+    margin: 0 auto;
+}
+.landingpage-navbar{
+    margin: 20px 0 0 0;
+}
+.landingpage-content{
+    display: flex;
+    justify-content: space-between;
+}
+.landingpage-inner-contents{
+    margin: 5rem 0 0 0;
+}
+
+.landingpage-inner-contents h1{
+    font-size: 50px;
+    font-family: var(--headingFont);
+    font-weight: 700;
+}
+.landingpage-inner-contents p {
+    color: var(--grey-600);
+  }
+.landingpage-inner-contents span{
+    color: var(--primary-500);
+    
+}

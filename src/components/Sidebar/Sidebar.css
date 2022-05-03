@@ -1,0 +1,45 @@
+.side-bar{
+  width: 20rem;
+  height: 100vh;
+  background-color: #ffff;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+   transition: all 0.5s linear;
+}
+.sidebar-logo{
+  margin: 30px 40px;
+}
+
+.sidebar-links{
+  padding-top: 25.copx;
+}
+li{
+  padding: 10px 44px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: Poppins;
+  color: rgba(66, 63, 63, 0.742);
+  cursor: pointer;
+  transition: all 0.6s linear;
+  
+}
+
+.links-icon{
+  font-size: 25px;
+  margin-right: 15px;
+  transition: all 0.3s linear;
+}
+
+li:hover{
+   background:#f0f4f8 ;
+  
+}
+
+li:hover .links-icon{
+  color: rgba(27, 78, 231, 0.776);
+  margin-left: 15px;
+}
